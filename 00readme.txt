@@ -25,13 +25,13 @@ Compilation using Makefile provided
 Adjust run-time parameters in parameters.h as desired,
 then compile the code on Linux using:
 
-make all    - compiles both the C++ and Fortran versions
-make bec3pc - compiles the C++ version
+make all    - compiles the C++ version
 
 Test run
 --------
 To run the program enter,
-  ./bec3pc  - C++ executable
+
+  ./bec3pc
 
 The sample parameter file (parameters.h) is configured to simulate
 a BEC star or stellar core using 100000 iterations and a grid size
@@ -44,7 +44,7 @@ OPENCL
 An experimental OPENCL version is also provided. To enable OPENCL,
 set the OPENCL macro in parameters.h. OPENCL has only been tested
 on a Windows platform, and the performance gain of this implementation
-was modest.
+was modest. The OPENCL code is not up-to-date or tested.
 
 Visualisation
 -------------
@@ -58,9 +58,9 @@ The bec3_out.gif file can be viewed in a browser window or using the
 'animate' utility of the ImageMagick suite, which is preinstalled in
 many Linux distributions.
 
-./video.sh -i bec2p_out.gif -o bec3p_out.mp4 
+./video.sh -i bec3p_out.gif -o bec3p_out.mp4 
 
-The bec30_out.mp4 can be viewed in Windows Media Player or VLC media
+The bec3p_out.mp4 can be viewed in Windows Media Player or VLC media
 player.
 
 
