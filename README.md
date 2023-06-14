@@ -3,14 +3,14 @@ using gcc 4.5.2 on a 64-bit Linux host. The C++ code also compiles
 as a Visual Studio 2010 console application project on Windows 7
 64-bit. This archive contains the following files:
 
-00readme.txt    - This file
-Makefile        - UNIX/Linux makefile
-stdafx.h        - C/C++ header file (mainly for Visual Studio)
-parameters3.h   - C/C++ header file with configurable parameters
-bec3p.c++       - C/C++ program file
-bec3p.cl        - OPENCL code (experimental)
-animate.sh      - Shell (bash) script to create animated GIFs
-video.sh        - Shell (bash) script to convert animations into MP4
+00readme.txt    - This file  
+Makefile        - UNIX/Linux makefile  
+stdafx.h        - C/C++ header file (mainly for Visual Studio)  
+parameters3.h   - C/C++ header file with configurable parameters  
+bec3p.c++       - C/C++ program file  
+bec3p.cl        - OPENCL code (experimental)  
+animate.sh      - Shell (bash) script to create animated GIFs  
+video.sh        - Shell (bash) script to convert animations into MP4  
 
 NB: Support for the FORTRAN version has been discontinued, due to the
 superior performance of the C++ version.
